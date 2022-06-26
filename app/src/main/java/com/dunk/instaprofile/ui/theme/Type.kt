@@ -1,6 +1,8 @@
 package com.dunk.instaprofile.ui.theme
 
 import androidx.compose.material.Typography
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
@@ -25,4 +27,9 @@ val Typography = Typography(
         fontSize = 12.sp
     )
     */
+)
+
+val semiBoldStyle = SpanStyle(
+    color = Color.Black,
+    fontWeight = FontWeight.SemiBold
 )
